@@ -1,0 +1,591 @@
+/*
+						CSS EASYQUERY STYLE 
+.---------------------------------------------------------------------------.
+|  Software: EasyQuery                                  					|
+|   Version: 1.0                                                            |
+|   Contact: via sourceforge.net or ramon.sepi@gmail.com                    |
+|      Info: http://sourceforge.net/projects/easyquery1/                    |
+|   Support: http://sourceforge.net/projects/easyquery1/                    |
+| ------------------------------------------------------------------------- |
+|     Admin: Ramon Segarra Pijuan (project admininistrator)                 |
+|   Author : Ramon Segarra Pijuan 											|
+|   Founder: Ramon Segarra Pijuan (original founder)                        |
+| Copyright (c) 2012-2013, Ramon Segarra Pijuan. All Rights Reserved.       |
+| ------------------------------------------------------------------------- |
+|   License: Distributed under the Creative Commons 						|
+|            Attribution-NonCommercial 3.0 Unported License.     			|
+|            http://creativecommons.org/licenses/by-nc/3.0/                 |
+| This program is distributed in the hope that it will be useful -          |
+| YOU ARE FREE: to Share — to copy, distribute and transmit the work.       |
+|               to Remix — to adapt the work.								|
+| UNDER THE FOLLOWING CONDITIONS: 											|
+|		Noncomercial - You may not use this work for commercial purposes.	|
+|		Attribution  — You must attribute the work to Ramon Segarra Pijuan	|
+|                      like the author or licensor (but not in any way that |
+|					   suggests that they endorse you or your use 			|
+|                      of the work).										|
+| ------------------------------------------------------------------------- |
+|          EasyQuery by Ramon Segarra Pijuan is licensed under a 			|
+|     Creative Commons Attribution-NonCommercial 3.0 Unported License.		|
+'---------------------------------------------------------------------------'
+*/
+
+#body{
+	background-color: #FFFFFF;	
+}
+
+.Head{
+	margin-top: 40px;
+}
+
+.HeadMini{
+	margin-top: 20px;
+}
+
+.Footer{
+	width: 568px;
+	padding-top: 10px;
+	border-top: 1px solid #F6F7F7;
+	margin-top: 40px;	
+}
+
+.Form1{
+	margin-top: 40px;	
+}
+
+
+/** TextboxQuery **/
+
+.TextBoxQuery{
+	margin: 5px 5px 5px 5px;	
+}
+
+.TextboxQuery1{
+	border: 2px solid #F6F7F7;
+	border-right: 0px;
+	padding: 11px 1px 11px 4px;
+	background-color: #F6F7F7;
+}
+
+.TextboxQuery2{
+	border: 2px solid #F6F7F7;
+	border-left: 0px;
+	padding: 4px 4px 4px 4px;
+	background-color: #F6F7F7;
+}
+
+.TextboxQueryAnswer1{
+	border: 2px solid #F0F8FF;
+	border-right: 0px;
+	padding: 11px 1px 11px 4px;
+	background-color: #F0F8FF;
+}
+
+.TextboxQueryAnswer2{
+	border: 2px solid #F0F8FF;
+	border-left: 0px;
+	padding: 4px 4px 4px 4px;
+	background-color: #F0F8FF;
+}
+
+.TextboxQuery2List{
+	border: 2px solid #F6F7F7;
+	border-left: 0px;
+	padding: 9px 1px 10px 4px;
+	background-color: #F6F7F7;
+}
+
+.TextboxValue{
+	border: 1px solid #F6F7F7;
+	font-family: Geneva, Arial, Verdana;
+	font-size: 25px;
+	color: gray;
+	background-color: #F6F7F7;
+	outline: none;
+}
+
+.PasswordTextboxValue{
+	border: 1px solid #F6F7F7;
+	font-family: Geneva, Arial, Verdana;
+	font-size: 25px;
+	color: gray;
+	background-color: #F6F7F7;
+	outline: none;
+	width: 259px;
+}
+
+.TextEditor{
+	border: 1px solid #F6F7F7;
+	background-color: #F6F7F7;
+	outline: none;
+}
+
+.TextboxLabel{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 20px;
+	color: #FF8000;
+	font-weight: bolder;
+	margin-left: 5px;	
+}
+
+.TextboxQueryP1{
+	border: 2px solid #F6F7F7;
+	border-right: 0px;
+	padding: 11px 1px 11px 4px;
+	background-color: #F6F7F7;
+}
+
+.TextboxQueryP2{
+	border: 2px solid #F6F7F7;
+	border-left: 0px;
+	border-right: 0px;
+	padding: 4px 4px 4px 4px;
+	background-color: #F6F7F7;
+}
+
+.TextboxQueryP3{
+	border: 2px solid #F6F7F7;
+	border-left: 0px;
+	padding: 15px 4px 15px 4px;
+	background-color: gray;
+}
+
+.TextboxQuery1_Disabled{
+	border: 2px solid #FDF49E;
+	border-right: 0px;
+	padding: 11px 1px 11px 4px;
+	background-color: #FDF49E;
+}
+
+.TextboxQuery2_Disabled{
+	border: 2px solid #FDF49E;
+	border-left: 0px;
+	padding: 4px 4px 4px 4px;
+	background-color: #FDF49E;
+}
+
+.TextboxValue_Disabled{
+	border: 1px solid #FDF49E;
+	font-family: Geneva, Arial, Verdana;
+	font-size: 25px;
+	color: gray;
+	background-color: #FDF49E;
+	outline: none;
+}
+
+.PasswordTextboxValue_Disabled{
+	border: 1px solid #FDF49E;
+	font-family: Geneva, Arial, Verdana;
+	font-size: 25px;
+	color: gray;
+	background-color: #FDF49E;
+	outline: none;
+	width: 259px;
+}
+
+.TextboxLabel_Disabled{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 20px;
+	color: #FF8000;
+	font-weight: bolder;
+	margin-left: 5px;	
+}
+
+.TextboxQueryP1_Disabled{
+	border: 2px solid #FDF49E;
+	border-right: 0px;
+	padding: 11px 1px 11px 4px;
+	background-color: #FDF49E;
+}
+
+.TextboxQueryP2_Disabled{
+	border: 2px solid #FDF49E;
+	border-left: 0px;
+	border-right: 0px;
+	padding: 4px 4px 4px 4px;
+	background-color: #FDF49E;
+}
+
+.TextboxQueryP3_Disabled{
+	border: 2px solid #FDF49E;
+	border-left: 0px;
+	padding: 15px 4px 15px 4px;
+	background-color: gray;
+}
+
+.Show{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 14px;
+	color: #FFFF88;
+	font-weight: bolder;
+}
+
+/** ListBox **/
+.ListBox{
+	border: 1px solid #F6F7F7;
+	font-family: Geneva, Arial, Verdana;
+	font-size: 25px;
+	color: gray;
+	background-color: #F6F7F7;
+	outline: none;
+	
+}
+
+/** ButtonQuery **/
+
+.ButtonSubmit{
+	border: 2px solid #FDF49E;
+	background-color: #FDF49E;
+	margin: 5px -5px 5px 0px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.ButtonSubmitHover{
+	border: 2px solid #FDF49E;
+	background-color: #FF8000;
+	margin: 5px -5px 5px 0px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.Button{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 25px;
+	color: #FF8000;
+	font-weight: bolder;
+	background-color: #FDF49E;
+	border: 0px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.ButtonHover{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 25px;
+	color: #FDF49E;
+	font-weight: bolder;
+	background-color: #FF8000;
+	border:0px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+/** Texts **/
+
+.TitleEasyQuery{
+	font-family: 'Contrail One', Helvetica, Geneva, Arial, Verdana;
+	font-size: 120px;
+	color: #FF8000;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.TitleEasyQueryMini{
+	font-family: 'Contrail One', Helvetica, Geneva, Arial, Verdana;
+	font-size: 40px;
+	color: #FF8000;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.MiniTitle{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 35px;
+	font-weight: bolder;
+	color: #FF8000;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.MiniTitle1{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 20px;
+	color: #FF8000;
+	margin-bottom: 15px;
+}
+
+.NormalTextLink{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 14px;
+	color: #FF8000;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.NormalTextLink:hover{
+	text-decoration: underline;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.MinText{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 11px;
+	font-weight: bolder;
+	color: #FF8000;
+}
+
+.MinTextLink{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 11px;
+	font-weight: bolder;
+	color: #FF8000;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.MinTextLink:hover{
+	text-decoration: underline;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.Space{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 14px;
+	color: #FF8000;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+/** ErrorPanel **/
+
+.ErrorPanel{
+	margin: 5px 5px 5px 5px;	
+	border-top: 4px dashed #FFFFFF;
+	border-bottom: 4px dashed #FFFFFF;
+	padding: 11px 11px 11px 11px;
+	background-color: #F3D1D3;
+}
+
+.ErrorText{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 25px;
+	color: #A5000B;
+	font-weight: bolder;
+	margin-left: 5px;
+	margin-right: 5px;	
+}
+
+/** MainPanel **/
+
+.Main{
+	background: white;
+	border: 2px solid gray;
+	padding: 10px 10px 10px 10px;
+	width: 950px;
+	height: 590px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+.MainPanel{
+	padding: 5px 5px 5px 5px;
+}
+
+.LoginPanel{
+	border-bottom: 2px solid gray;
+	padding: 5px 5px 5px 5px;
+}
+
+.MenuPanel{
+	border-right: 2px solid gray;
+	padding: 5px 5px 5px 5px;
+	height: 590px;
+}
+
+/** Login **/
+
+.LoginText{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 16px;
+	color: #FF8000;	
+}
+
+/** TreePanel menu **/
+
+.treeElement{
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.treeElementIcon{
+	margin-right: 1px;
+}
+
+.treeElementName{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #FF8000;
+	margin-left: 1px;
+}
+
+.treeElementName:hover{
+	cursos: hand;
+	cursor: pointer;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+.treeElementNameActivated{
+	cursos: hand;
+	cursor: pointer;
+	margin-left: 1px;
+	font-weight: bolder;
+}
+
+.Icon{
+	cursos: hand;
+	cursor: pointer;	
+}
+
+/** List **/
+
+.ListStyle{
+	
+}
+
+.scroll{
+	overflow-x: hidden;
+}
+
+.ListHeaderRow{
+	background-color: #F6F7F7;
+	padding: 5px 5px 5px 5px;
+}
+
+.TextListHeaderRow{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 18px;
+	color: #FF8000;
+	font-weight: bolder;	
+}
+
+.ListRow{
+	border-bottom: 1px solid #F6F7F7;
+	padding: 5px 5px 5px 5px;
+}
+
+.TextListRow{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 16px;
+	color: gray;	
+	cursos: hand;
+	cursor: pointer; 
+}
+
+.TextListRowAnswer{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 16px;
+	color: graytext;	
+	cursos: hand;
+	cursor: pointer;
+	border: 1px dashed #F0F8FF; 
+}
+
+.TextListRow0{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 14px;
+	color: gray;	
+	cursos: hand;
+	cursor: pointer; 
+}
+
+.TextListRow1{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 10px;
+	color: gray;	
+	cursos: hand;
+	cursor: pointer; 
+}
+
+.TextListRow2{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 14px;
+	color: green;	
+	cursos: hand;
+	cursor: pointer; 
+}
+.TextListRow3{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 14px;
+	color: red;	
+	cursos: hand;
+	cursor: pointer; 
+}
+
+.TextBoxList{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 16px;
+	color: gray;	
+	border: 0px;
+	background-color: white;
+	cursor:text;
+	text-align: center;
+	outline: none;
+	border-bottom: 1px dashed #FF8000;
+}
+
+/** ListBox **/
+
+.ListBox{
+	background-color: #F6F7F7;
+	border-left: 2px solid gray;
+	border-right: 2px solid gray;
+	font-family: Geneva, Arial, Verdana;
+	font-size: 16px;
+	color: gray;
+	padding: 4px 4px 4px 4px;
+	text-align: center;	
+}
+
+/** DoMakeTest **/
+
+.QuestionTestStyle{
+	margin-top: 10px;
+	border-top: 2px solid gray;	
+	border-bottom: 2px solid gray;
+	margin-bottom: 10px;	
+}
+
+.QuestionStyle{
+	padding: 10px 5px 10px 5px;
+	border-bottom: 1px dashed gray;
+	margin-bottom: 5px;
+}
+
+.AnswerStyle{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.VoteNum{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 25px;
+	color: #FF8000;
+	font-weight: bolder;
+	margin-left: 10px;	
+}
+
+/** Index.html **/
+
+#Sorry{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 45px;
+	color: #FF0000;
+	font-weight: bolder;
+	margin: 10px 10px 10px 10px;
+}
+
+#Infobar{
+	font-family: Geneva, Arial, Verdana;
+	font-size: 25px;
+	color: #FF8000;
+	font-weight: bolder;
+	margin: 5px 10px 5px 10px;
+	text-align: center;
+	width: 100%
+}	
